@@ -11,7 +11,7 @@ import SwiftUI
 struct CalismaYapisiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Anasayfa()
         }
     }
 }

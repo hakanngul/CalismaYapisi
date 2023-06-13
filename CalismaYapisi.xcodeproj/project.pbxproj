@@ -11,6 +11,9 @@
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
 		AEFEB6272A3900F900359940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6262A3900F900359940 /* Preview Assets.xcassets */; };
+		AEFEB62E2A39080700359940 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB62D2A39080700359940 /* Anasayfa.swift */; };
+		AEFEB6302A3908CF00359940 /* OyunEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */; };
+		AEFEB6322A39095E00359940 /* SonucEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6312A39095E00359940 /* SonucEkrani.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEFEB6232A3900F900359940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFEB6262A3900F900359940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEFEB62D2A39080700359940 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunEkrani.swift; sourceTree = "<group>"; };
+		AEFEB6312A39095E00359940 /* SonucEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkrani.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */,
 				AEFEB6212A3900F600359940 /* ContentView.swift */,
+				AEFEB62D2A39080700359940 /* Anasayfa.swift */,
+				AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */,
+				AEFEB6312A39095E00359940 /* SonucEkrani.swift */,
 				AEFEB6232A3900F900359940 /* Assets.xcassets */,
 				AEFEB6252A3900F900359940 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFEB6302A3908CF00359940 /* OyunEkrani.swift in Sources */,
 				AEFEB6222A3900F600359940 /* ContentView.swift in Sources */,
+				AEFEB62E2A39080700359940 /* Anasayfa.swift in Sources */,
+				AEFEB6322A39095E00359940 /* SonucEkrani.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
