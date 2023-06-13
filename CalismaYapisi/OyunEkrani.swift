@@ -9,10 +9,13 @@ import SwiftUI
 
 struct OyunEkrani: View {
     @Environment(\.presentationMode) var pm
+    @State private var sonucEkraninaGecis = false
+    
+    
     var body: some View {
         VStack (spacing: 30) {
             Button("Bitti") {
-                
+                sonucEkraninaGecis.toggle()
             }
             .padding()
             .foregroundColor(.white)
@@ -26,6 +29,9 @@ struct OyunEkrani: View {
             .background(.green)
             .cornerRadius(10)
         }.navigationTitle("Oyun Ekranı")
+            .sheet(isPresented: $sonucEkraninaGecis) {
+                SonucEkrani()
+            }
     }
 }
 

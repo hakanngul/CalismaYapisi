@@ -13,10 +13,13 @@ struct Anasayfa: View {
         
         NavigationStack {
             VStack (spacing: 30) {
-                NavigationLink(destination: OyunEkrani()) {
-                    Text("Başla")
+                Button("Başla") {
+                    oyunEkraniGeics.toggle()
                 }
             }.navigationTitle("Anasayfa")
+                .navigationDestination(isPresented: $oyunEkraniGeics ){
+                    OyunEkrani()
+                }
         }
     }
 }
