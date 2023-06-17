@@ -9,6 +9,13 @@ import SwiftUI
 
 struct Anasayfa: View {
     @State private var oyunEkraniGeics = false
+    
+    init(){
+        print("Init Metodu Çalıştı")
+    }
+    
+    
+    
     var body: some View {
         
         NavigationStack {
@@ -18,11 +25,21 @@ struct Anasayfa: View {
                 }
             }.navigationTitle("Anasayfa")
                 .navigationDestination(isPresented: $oyunEkraniGeics ){
-                    OyunEkrani()
+                    let kisi = Kisiler(isim: "Hakan", yas: 12, boy: 1.75, bekar: true)
+                    OyunEkrani(kisi: kisi)
+                }
+                .onAppear() {
+                    print("onAppear Metodu Çalıştı")
+                }
+                .onDisappear() {
+                    print("onDisappear Metodu Çalıştı")
                 }
         }
+        
     }
+    
 }
+
 
 struct Anasayfa_Previews: PreviewProvider {
     static var previews: some View {

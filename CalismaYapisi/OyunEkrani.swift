@@ -11,9 +11,15 @@ struct OyunEkrani: View {
     @Environment(\.presentationMode) var pm
     @State private var sonucEkraninaGecis = false
     
+    var kisi = Kisiler()
     
     var body: some View {
         VStack (spacing: 30) {
+            
+            //Text fill all variables
+            Text("İsim: \(kisi.isim!) - Yas: \(kisi.yas!) - Boy: \(kisi.boy!) - Bekar: \(kisi.bekar! ? "Evet": "Hayır") ")
+            
+            
             Button("Bitti") {
                 sonucEkraninaGecis.toggle()
             }
