@@ -7,34 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEF869A12A3E540F00F3827E /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF869A02A3E540F00F3827E /* Kisiler.swift */; };
-		AEF869A32A3E5A9100F3827E /* NavSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF869A22A3E5A9100F3827E /* NavSayfa.swift */; };
-		AEF869A52A3E630300F3827E /* TabSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF869A42A3E630300F3827E /* TabSayfa.swift */; };
-		AEF869A72A3E634200F3827E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF869A62A3E634200F3827E /* HomePage.swift */; };
-		AEF869A92A3E635300F3827E /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF869A82A3E635300F3827E /* SettingsPage.swift */; };
 		AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */; };
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
 		AEFEB6272A3900F900359940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6262A3900F900359940 /* Preview Assets.xcassets */; };
-		AEFEB62E2A39080700359940 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB62D2A39080700359940 /* Anasayfa.swift */; };
-		AEFEB6302A3908CF00359940 /* OyunEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */; };
-		AEFEB6322A39095E00359940 /* SonucEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6312A39095E00359940 /* SonucEkrani.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AEF869A02A3E540F00F3827E /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
-		AEF869A22A3E5A9100F3827E /* NavSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSayfa.swift; sourceTree = "<group>"; };
-		AEF869A42A3E630300F3827E /* TabSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSayfa.swift; sourceTree = "<group>"; };
-		AEF869A62A3E634200F3827E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		AEF869A82A3E635300F3827E /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		AEFEB61C2A3900F600359940 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiApp.swift; sourceTree = "<group>"; };
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEFEB6232A3900F900359940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFEB6262A3900F900359940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AEFEB62D2A39080700359940 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
-		AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunEkrani.swift; sourceTree = "<group>"; };
-		AEFEB6312A39095E00359940 /* SonucEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkrani.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +53,8 @@
 			children = (
 				AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */,
 				AEFEB6212A3900F600359940 /* ContentView.swift */,
-				AEFEB62D2A39080700359940 /* Anasayfa.swift */,
-				AEFEB62F2A3908CF00359940 /* OyunEkrani.swift */,
-				AEFEB6312A39095E00359940 /* SonucEkrani.swift */,
-				AEF869A02A3E540F00F3827E /* Kisiler.swift */,
-				AEF869A22A3E5A9100F3827E /* NavSayfa.swift */,
 				AEFEB6232A3900F900359940 /* Assets.xcassets */,
 				AEFEB6252A3900F900359940 /* Preview Content */,
-				AEF869A42A3E630300F3827E /* TabSayfa.swift */,
-				AEF869A62A3E634200F3827E /* HomePage.swift */,
-				AEF869A82A3E635300F3827E /* SettingsPage.swift */,
 			);
 			path = CalismaYapisi;
 			sourceTree = "<group>";
@@ -161,16 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEB6302A3908CF00359940 /* OyunEkrani.swift in Sources */,
-				AEF869A72A3E634200F3827E /* HomePage.swift in Sources */,
 				AEFEB6222A3900F600359940 /* ContentView.swift in Sources */,
-				AEFEB62E2A39080700359940 /* Anasayfa.swift in Sources */,
-				AEF869A32A3E5A9100F3827E /* NavSayfa.swift in Sources */,
-				AEF869A52A3E630300F3827E /* TabSayfa.swift in Sources */,
-				AEFEB6322A39095E00359940 /* SonucEkrani.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
-				AEF869A12A3E540F00F3827E /* Kisiler.swift in Sources */,
-				AEF869A92A3E635300F3827E /* SettingsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
