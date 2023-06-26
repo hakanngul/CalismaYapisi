@@ -8,32 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var alinanVeri = ""
-    @State private var tf = ""
+    @State private var resimAdi = "mutlu";
     var body: some View {
         VStack () {
-            Text("Gelen Veri : \(alinanVeri)")
-                .padding(10)
-                .font(.system(size: 30))
-                .background(.blue)
-                .foregroundColor(.white)
-                .bold()
-                .cornerRadius(10)
-                
-                
-            TextField("Veri giriniz",text: $tf)
-                .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+            Spacer()
+            
+            Image(resimAdi).resizable().frame(width: 200, height: 200, alignment: .center)
             
             
-            Button("Veriyi Al") {
-                alinanVeri = tf
+            Spacer()
+            
+            Button("Resim 1") {
+                resimAdi = "mutlu"
             }
-            //make background color red forground color white and font size 20 and padding
-            .padding(10)
-            .font(.system(size: 20))
+            .font(.system(size: 30))
+            .padding()
             .background(.red)
             .foregroundColor(.white)
-            .cornerRadius(10)
+            .cornerRadius(30)
+            .padding()
+            
+            Button("Resim 2") {
+                resimAdi = "uzgun"
+            }.font(.system(size: 30))
+                .padding()
+                .background(.blue)
+                .foregroundColor(.white)
+                .cornerRadius(30)
+                .padding()
+            Spacer()
             
             
         
