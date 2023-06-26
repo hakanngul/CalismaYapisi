@@ -8,20 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var sayac = 0
+    @State private var alinanVeri = ""
+    @State private var tf = ""
     var body: some View {
-        VStack (spacing: 100) {
-            
-            Text("Sayaç : \(sayac)")
+        VStack () {
+            Text("Gelen Veri : \(alinanVeri)")
+                .padding(10)
                 .font(.system(size: 30))
+                .background(.blue)
+                .foregroundColor(.white)
+                .bold()
+                .cornerRadius(10)
+                
+                
+            TextField("Veri giriniz",text: $tf)
+                .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
             
-            Button("Tıkla") {
-                sayac+=1
+            
+            Button("Veriyi Al") {
+                alinanVeri = tf
             }
-            .padding()
+            //make background color red forground color white and font size 20 and padding
+            .padding(10)
+            .font(.system(size: 20))
+            .background(.red)
             .foregroundColor(.white)
-            .background(.black)
             .cornerRadius(10)
+            
+            
+        
+            
         }
         
     }
