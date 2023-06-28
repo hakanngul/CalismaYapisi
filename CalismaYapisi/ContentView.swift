@@ -1,47 +1,33 @@
-//
-//  ContentView.swift
-//  CalismaYapisi
-//
-//  Created by Hakan Gül on 13/06/2023.
-//
+    //
+    //  ContentView.swift
+    //  CalismaYapisi
+    //
+    //  Created by Hakan Gül on 13/06/2023.
+    //
 
 import SwiftUI
 
 struct ContentView: View {
-    @State private var switchState = false
-    var body: some View {
-        VStack () {
+    @State private var segmentedState = 0
+    @State private var state = ""
+    @State private var stepperState = 0
+    @State private var sliderState = 30.0
+    var body: some View {
+        VStack {
+            VStack () {
+                    //Stepper 0 to 10
+                Stepper("Steps", value: $stepperState, in: 0...10)
+                    .padding()
+                Text("Steps Count: \(stepperState)")
+                    .padding()
+            }
+            Spacer(minLength: 1)
+            VStack {
+                Slider(value: $sliderState, in: 0...100).padding()
+                Text("Sonuç : \(Int(sliderState))")
+            }
             Spacer()
-            
-            Toggle("Switch", isOn: $switchState)
-                .onChange(of:switchState){ value in
-                    print("Value of : \(value)")
-                }
-                .padding()
-                .toggleStyle(SwitchToggleStyle(tint: .red))
-            
-            //print switch state on Text and size also 20
-            Text(switchState ? "ON" : "OFF")
-                .font(.system(size: 20))
-                .padding()
-            
-            
-            
-            Button("Resim 2") {
-               
-            }.font(.system(size: 30))
-                .padding()
-                .background(.blue)
-                .foregroundColor(.white)
-                .cornerRadius(30)
-                .padding()
-            Spacer()
-            
-            
-        
-            
         }
-        
     }
 }
 
@@ -52,3 +38,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
