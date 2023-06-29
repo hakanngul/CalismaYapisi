@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9CC2A4E331600BDB7BC /* KullaniciEtkilesimi.swift */; };
 		AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */; };
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE39F9CC2A4E331600BDB7BC /* KullaniciEtkilesimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciEtkilesimi.swift; sourceTree = "<group>"; };
 		AEFEB61C2A3900F600359940 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiApp.swift; sourceTree = "<group>"; };
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				AEFEB6212A3900F600359940 /* ContentView.swift */,
 				AEFEB6232A3900F900359940 /* Assets.xcassets */,
 				AEFEB6252A3900F900359940 /* Preview Content */,
+				AE39F9CC2A4E331600BDB7BC /* KullaniciEtkilesimi.swift */,
 			);
 			path = CalismaYapisi;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFEB6222A3900F600359940 /* ContentView.swift in Sources */,
+				AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
