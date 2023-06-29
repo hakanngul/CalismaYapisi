@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9CC2A4E331600BDB7BC /* KullaniciEtkilesimi.swift */; };
+		AE39F9D42A4E383D00BDB7BC /* DateAndTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9D32A4E383D00BDB7BC /* DateAndTimePicker.swift */; };
 		AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */; };
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		AE39F9CC2A4E331600BDB7BC /* KullaniciEtkilesimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciEtkilesimi.swift; sourceTree = "<group>"; };
+		AE39F9D32A4E383D00BDB7BC /* DateAndTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimePicker.swift; sourceTree = "<group>"; };
 		AEFEB61C2A3900F600359940 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiApp.swift; sourceTree = "<group>"; };
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE39F9D02A4E37DF00BDB7BC /* Listeleme */ = {
+			isa = PBXGroup;
+			children = (
+				AE39F9D32A4E383D00BDB7BC /* DateAndTimePicker.swift */,
+			);
+			path = Listeleme;
+			sourceTree = "<group>";
+		};
 		AEFEB6132A3900F600359940 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		AEFEB61E2A3900F600359940 /* CalismaYapisi */ = {
 			isa = PBXGroup;
 			children = (
+				AE39F9D02A4E37DF00BDB7BC /* Listeleme */,
 				AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */,
 				AEFEB6212A3900F600359940 /* ContentView.swift */,
 				AEFEB6232A3900F900359940 /* Assets.xcassets */,
@@ -140,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39F9D42A4E383D00BDB7BC /* DateAndTimePicker.swift in Sources */,
 				AEFEB6222A3900F600359940 /* ContentView.swift in Sources */,
 				AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
