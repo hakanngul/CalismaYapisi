@@ -9,7 +9,9 @@ import SwiftUI
 
 struct KullaniciEtkilesimi: View {
     @State private var alert = false
+    @State private var actionSheet = false
     @State private var message = ""
+    @State private var actionMessage = ""
     var body: some View {
         //Vstack and 2 button 1 text
         VStack(spacing: 100) {
@@ -31,10 +33,39 @@ struct KullaniciEtkilesimi: View {
                 Text("İçerik")
             })
             
+            Text(actionMessage)
             
             Button("Action Sheet") {
-                Text("Merhaba Dünya")
+                actionSheet = true
+            }.actionSheet(isPresented: $actionSheet) {
+                ActionSheet(title: Text("Başlık"), message: Text("İçerik"),
+                buttons: [
+                    .default(Text("İptal"), action: {
+                        actionMessage = "İptal Edildi"
+                    }),
+                    .destructive(Text("Tamam"), action: {
+                        actionMessage = "Tamam Seçildi"
+                    })
+                    ]
+                )
             }
+            Text("Context Menü Text: \(actionMessage)")
+            
+            Text("Context Menü")
+                .contextMenu {
+                    Button(action: {
+                        actionMessage = "Resim Seçildi"
+                    }, label: {
+                        Label("Resim Çek", systemImage: "camera")
+                    })
+                    // Video button create
+                    Button(action: {
+                        actionMessage = "Video Seçildi"
+                    }, label: {
+                        Label("Video Çek", systemImage: "video")
+                    })
+                
+                }
         }
     
     }
