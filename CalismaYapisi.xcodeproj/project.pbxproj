@@ -12,6 +12,11 @@
 		AE39F9D62A4E3AA500BDB7BC /* PickerSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9D52A4E3AA500BDB7BC /* PickerSayfa.swift */; };
 		AE39F9D82A4E3BD600BDB7BC /* SearchableYapisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9D72A4E3BD500BDB7BC /* SearchableYapisi.swift */; };
 		AE39F9DA2A4E3D2500BDB7BC /* SabitListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9D92A4E3D2500BDB7BC /* SabitListeleme.swift */; };
+		AE39F9DC2A4E3EB800BDB7BC /* SabitGridListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F9DB2A4E3EB800BDB7BC /* SabitGridListeleme.swift */; };
+		AE60C5A42A4EDDA00067D782 /* YatayListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5A32A4EDDA00067D782 /* YatayListeleme.swift */; };
+		AE60C5A62A4EE3F90067D782 /* DinamikListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */; };
+		AE60C5A92A4EE45A0067D782 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5A82A4EE45A0067D782 /* Country.swift */; };
+		AE60C5AC2A4EE66E0067D782 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */; };
 		AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */; };
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 		AE39F9D52A4E3AA500BDB7BC /* PickerSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSayfa.swift; sourceTree = "<group>"; };
 		AE39F9D72A4E3BD500BDB7BC /* SearchableYapisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableYapisi.swift; sourceTree = "<group>"; };
 		AE39F9D92A4E3D2500BDB7BC /* SabitListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabitListeleme.swift; sourceTree = "<group>"; };
+		AE39F9DB2A4E3EB800BDB7BC /* SabitGridListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabitGridListeleme.swift; sourceTree = "<group>"; };
+		AE60C5A32A4EDDA00067D782 /* YatayListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YatayListeleme.swift; sourceTree = "<group>"; };
+		AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikListeleme.swift; sourceTree = "<group>"; };
+		AE60C5A82A4EE45A0067D782 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
 		AEFEB61C2A3900F600359940 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiApp.swift; sourceTree = "<group>"; };
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,8 +59,20 @@
 				AE39F9D52A4E3AA500BDB7BC /* PickerSayfa.swift */,
 				AE39F9D72A4E3BD500BDB7BC /* SearchableYapisi.swift */,
 				AE39F9D92A4E3D2500BDB7BC /* SabitListeleme.swift */,
+				AE39F9DB2A4E3EB800BDB7BC /* SabitGridListeleme.swift */,
+				AE60C5A32A4EDDA00067D782 /* YatayListeleme.swift */,
+				AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */,
+				AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */,
+				AE60C5A82A4EE45A0067D782 /* Country.swift */,
 			);
 			path = Listeleme;
+			sourceTree = "<group>";
+		};
+		AE60C5A72A4EE4480067D782 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		AEFEB6132A3900F600359940 = {
@@ -72,6 +94,7 @@
 		AEFEB61E2A3900F600359940 /* CalismaYapisi */ = {
 			isa = PBXGroup;
 			children = (
+				AE60C5A72A4EE4480067D782 /* New Group */,
 				AE39F9D02A4E37DF00BDB7BC /* Listeleme */,
 				AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */,
 				AEFEB6212A3900F600359940 /* ContentView.swift */,
@@ -160,12 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE60C5A92A4EE45A0067D782 /* Country.swift in Sources */,
+				AE60C5A42A4EDDA00067D782 /* YatayListeleme.swift in Sources */,
+				AE39F9DC2A4E3EB800BDB7BC /* SabitGridListeleme.swift in Sources */,
 				AE39F9D42A4E383D00BDB7BC /* DateAndTimePicker.swift in Sources */,
 				AEFEB6222A3900F600359940 /* ContentView.swift in Sources */,
+				AE60C5AC2A4EE66E0067D782 /* CountryDetail.swift in Sources */,
 				AE39F9D62A4E3AA500BDB7BC /* PickerSayfa.swift in Sources */,
 				AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */,
 				AE39F9D82A4E3BD600BDB7BC /* SearchableYapisi.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
+				AE60C5A62A4EE3F90067D782 /* DinamikListeleme.swift in Sources */,
 				AE39F9DA2A4E3D2500BDB7BC /* SabitListeleme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
