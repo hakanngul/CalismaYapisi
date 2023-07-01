@@ -15,12 +15,16 @@ struct DinamikGridListeleme: View {
             GeometryReader { geometry in
                 let screenWidth = geometry.size.width
                 let itemWidth = (screenWidth - 60 ) / 3
-                
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())
                                        ], spacing: 20) {
                         ForEach(countryList) { country in
-                            CountryGridItem(country: country, height: 150, width: itemWidth)
+                            
+                            NavigationLink(destination: CountryDetail(country: country)) {
+                                CountryGridItem(country: country, height: 150, width: itemWidth)
+                            }
+                            
+                                
                         }
                     }
                     
@@ -49,6 +53,10 @@ struct CountryGridItem : View {
     var body: some View {
         VStack {
             Text(country.name!)
+            Text("Seç")
+                .onTapGesture {
+                    print("Ülke \(country.name!) seçildiiiiiiii")
+                }
         }
         .frame(width: width, height: height)
         .border(Color.blue.opacity(0.5))
