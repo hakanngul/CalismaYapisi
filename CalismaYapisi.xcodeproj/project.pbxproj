@@ -17,6 +17,7 @@
 		AE60C5A62A4EE3F90067D782 /* DinamikListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */; };
 		AE60C5A92A4EE45A0067D782 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5A82A4EE45A0067D782 /* Country.swift */; };
 		AE60C5AC2A4EE66E0067D782 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */; };
+		AEC58E202A509E68005A6204 /* DinamikGridListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E1F2A509E68005A6204 /* DinamikGridListeleme.swift */; };
 		AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */; };
 		AEFEB6222A3900F600359940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEB6212A3900F600359940 /* ContentView.swift */; };
 		AEFEB6242A3900F900359940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFEB6232A3900F900359940 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikListeleme.swift; sourceTree = "<group>"; };
 		AE60C5A82A4EE45A0067D782 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
+		AEC58E1F2A509E68005A6204 /* DinamikGridListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikGridListeleme.swift; sourceTree = "<group>"; };
 		AEFEB61C2A3900F600359940 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEB61F2A3900F600359940 /* CalismaYapisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiApp.swift; sourceTree = "<group>"; };
 		AEFEB6212A3900F600359940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				AE39F9DB2A4E3EB800BDB7BC /* SabitGridListeleme.swift */,
 				AE60C5A32A4EDDA00067D782 /* YatayListeleme.swift */,
 				AE60C5A52A4EE3F90067D782 /* DinamikListeleme.swift */,
+				AEC58E1F2A509E68005A6204 /* DinamikGridListeleme.swift */,
 				AE60C5AB2A4EE66E0067D782 /* CountryDetail.swift */,
 				AE60C5A82A4EE45A0067D782 /* Country.swift */,
 			);
@@ -191,6 +194,7 @@
 				AE60C5AC2A4EE66E0067D782 /* CountryDetail.swift in Sources */,
 				AE39F9D62A4E3AA500BDB7BC /* PickerSayfa.swift in Sources */,
 				AE39F9CD2A4E331600BDB7BC /* KullaniciEtkilesimi.swift in Sources */,
+				AEC58E202A509E68005A6204 /* DinamikGridListeleme.swift in Sources */,
 				AE39F9D82A4E3BD600BDB7BC /* SearchableYapisi.swift in Sources */,
 				AEFEB6202A3900F600359940 /* CalismaYapisiApp.swift in Sources */,
 				AE60C5A62A4EE3F90067D782 /* DinamikListeleme.swift in Sources */,
